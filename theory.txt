@@ -1,0 +1,157 @@
+
+
+34. Form in HTML 56 Part 07
+
+<link href="css/style.css" rel="stylesheet"/>
+
+Create Form Use Form Tag <form> </form>
+atributes=>>> action=""  method=""
+
+============================================
+For Box Use Input Tag and input inline element
+attributes=>>> type="text" name="firstname" placeholder="firstname"OR value="firstname">
+============
+<form action="" method="">
+        <input type="text" name="firstname" placeholder="firstname">
+        <input type="submit">
+    </form>
+    =================
+<form action="" method="">
+        <fieldset> 
+
+            <legend>Heading Title</legend>
+            full from .......
+
+        </fieldset>
+        
+    </form>
+============================
+    Email:
+        <input type="email">
+    Password:
+        <input type="password"> 
+=============================
+    Radio Button
+    Gender:
+        <!-- <input type="radio">Male
+        <input type="radio">Female -->
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="male">Female
+=====================================================
+         <!-- Auto Or By Default Select Male or Female used Checked Or Checked="" -->
+        <input type="radio" name="gender" value="male" checked="">Male
+        <input type="radio" name="gender" value="male">Female
+==================================================================
+<!-- Select Tag For Like Country Select --> <option selected >USA</option>
+         Country:
+        <select name="country">
+            <option>Bangladesh</option>
+            <option>India</option>
+            <option selected >USA</option>
+            <option>Englad</option>
+            <option>France</option>
+            <option>Japan</option>
+        </select>
+=====================================================================
+Birthdate:
+        <input type="date">
+
+        Birthdate:
+            <input type="date" min="2023-01-01" max="2024-31-12">
+============================================================
+<!-- Age:
+            <input type="number"> -->
+            Age:
+            <input type="number" min="18" max="75">
+=====================================================
+Favourite Color:
+       <input type="color">
+====================================================
+Upload CV:
+       <input type="file">
+==================================  
+Write Something:
+       <textarea rows="1" cols="50"> Enter Your Details</textarea>
+======================================================================   
+<input type="submit"> 
+                <input type="Reset">
+=====================================================
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>34. Form in HTML 56 Part 07</title>
+</head>
+<body>
+    <form action="" method="">
+        <fieldset> 
+            <legend> Registration Form</legend>
+
+            <label>First Name:</label><br>
+            <!-- <input type="text" name="firstname" placeholder="firstname"> -->
+                <input type="text" name="Firstname" value="First Name">  <br><br>
+
+            <label>Last Name:</label> <br>
+                <input type="text" name="Lastname" value="Last Name"> <br><br>
+
+            <label>Email:</label> <br>
+                <input type="email"> <br><br>
+
+            <label>Password:</label> <br>
+                <input type="password"> <br><br>
+        
+            <label>Gender:</label> <br>
+               <!-- <input type="radio">Male
+               <input type="radio">Female -->
+
+               <!-- <input type="radio" name="gender" value="male">Male
+               <input type="radio" name="gender" value="male">Female -->
+
+               <!-- Auto Or By Default Select Male or Female used Checked Or Checked="" -->
+               <input type="radio" name="gender" value="male" checked="">Male
+               <input type="radio" name="gender" value="male">Female <br><br>
+
+               <!-- Select Tag For Like Country Select -->
+            <label>Country</label> <br>
+                <select name="country">
+                   <option>Bangladesh</option>
+                    <option>India</option>
+                   <!-- <option>USA</option> -->
+                   <option selected>USA</option>
+                   <option>Englad</option>
+                   <option>France</option>
+                   <option>Japan</option>
+               </select> <br><br>
+
+            <label>Birthdate:</label> <br>
+               <input type="date">
+            <!-- Birthdate:
+                <input type="date" min="2023-01-01" max="2024-31-12">  --> <br><br> 
+        
+            <!-- Age:
+                 <input type="number"> -->
+            <label>Age:</label> <br>
+                <input type="number" min="18" max="75"> <br><br>
+
+            <label>Favourite Color:</label> <br>
+               <input type="color"> <br><br>
+       
+            <label>Upload CV:</label> <br>
+               <input type="file">  <br><br>
+
+            <label>Write Something:</label> <br>
+        
+             <textarea rows="5" cols="50"> Enter Your Details</textarea>  <br><br>
+        
+                <input type="submit"> 
+                <input type="Reset">
+        </fieldset>
+        
+    </form>
+</body>
+</html>
+================================================================
+////////////////////////////////////////////////////////////////
+================================================================

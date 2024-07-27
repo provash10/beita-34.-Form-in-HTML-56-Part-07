@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>34. Form in HTML 56 Part 07</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" method="">
+            <fieldset> 
+                <legend class="legend"> <strong>Registration Form</strong></legend>
+    
+                <label>First Name:</label><br>
+                <!-- <input type="text" name="firstname" placeholder="firstname"> -->
+                    <input type="text" name="Firstname" value="First Name">  <br><br>
+    
+                <label>Last Name:</label> <br>
+                    <input type="text" name="Lastname" value="Last Name"> <br><br>
+    
+                <label>Email:</label> <br>
+                    <input type="email"> <br><br>
+    
+                <label>Password:</label> <br>
+                    <input type="password"> <br><br>
+            
+                <label>Gender:</label> <br>
+                   <!-- <input type="radio">Male
+                   <input type="radio">Female -->
+    
+                   <!-- <input type="radio" name="gender" value="male">Male
+                   <input type="radio" name="gender" value="male">Female -->
+    
+                   <!-- Auto Or By Default Select Male or Female used Checked Or Checked="" -->
+                   <input type="radio" name="gender" value="male" checked="">Male
+                   <input type="radio" name="gender" value="male">Female 
+                   <input type="radio" name="gender" value="male">Others <br><br>
+    
+                   <!-- Select Tag For Like Country Select -->
+                <label>Country</label> <br>
+                    <select name="country">
+                       <option>Bangladesh</option>
+                        <option>India</option>
+                       <!-- <option>USA</option> -->
+                       <option selected>USA</option>
+                       <option>Englad</option>
+                       <option>France</option>
+                       <option>Japan</option>
+                   </select> <br><br>
+    
+                <label>Birthdate:</label> <br>
+                   <input type="date">
+                <!-- Birthdate:
+                    <input type="date" min="2023-01-01" max="2024-31-12">  --> <br><br> 
+            
+                <!-- Age:
+                     <input type="number"> -->
+                <label>Age:</label> <br>
+                    <input type="number" min="18" max="75"> <br><br>
+    
+                <label>Favourite Color:</label> <br>
+                   <input type="color"> <br><br>
+           
+                <label>Upload CV:</label> <br>
+                   <input type="file">  <br><br>
+    
+                <label>Write Something:</label> <br>
+            
+                 <textarea rows="5" cols="50"> Enter Your Details</textarea>  <br><br>
+            
+                    <input type="submit"> 
+                    <input type="Reset">
+            </fieldset>
+            
+        </form>
+    </div>
+
+    <div class="container">
+        <p class="title">Registration Form</p>
+        <form action="" method="">
+            <input class="input-element" type="text" name="" value="" placeholder="Enter your first name">
+            <input class="input-element"  type="text" name="" value="" placeholder="Enter your last name">
+            <input class="input-element" type="email" name="" value="" placeholder="Enter your email">
+            <input class="input-element" type="text" name="" value="" placeholder="Enter your phone number">
+            <input class="input-element" type="number" name="" value="" placeholder="Enter your Age">
+            <input class="input-element" type="password" name="" value="" placeholder="Enter your password">
+            <button class="btn" type="submit" name="">Login</button>
+
+        </form>
+       </div>
+</body>
+</html>
